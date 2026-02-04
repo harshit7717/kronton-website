@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronton - Smart Life for All</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">KRONTON</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Products</a>
+                <a href="free-access.html">Free Access</a>
+                <a href="dashboard.html">My Dashboard</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="dashboard.html" class="btn-outline">Login</a>
+                <a href="free-access.html" class="btn-primary">Get Started Free</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Smart Life <span class="highlight">for All</span></h1>
+                <p class="subtitle">Transform your existing devices into smart devices without replacing them. Works offline with voice, IR remote, and manual control.</p>
+                <div class="hero-buttons">
+                    <a href="free-access.html" class="btn-primary btn-large">
+                        <i class="fas fa-play-circle"></i> Try It Free
+                    </a>
+                    <a href="products.html" class="btn-secondary btn-large">
+                        <i class="fas fa-shopping-cart"></i> Shop Products
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10,000+</span>
+                        <span class="stat-label">Homes Automated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Offline Support</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">₹0</span>
+                        <span class="stat-label">Free Starter Plan</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="device-showcase">
+                    <div class="device-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Smart Lighting</h4>
+                        <p>Control existing lights</p>
+                    </div>
+                    <div class="device-card">
+                        <i class="fas fa-plug"></i>
+                        <h4>Smart Plugs</h4>
+                        <p>Make any device smart</p>
+                    </div>
+                    <div class="device-card">
+                        <i class="fas fa-thermometer-half"></i>
+                        <h4>Climate Control</h4>
+                        <p>Automate AC/Heaters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP Section -->
+    <section class="usp-section">
+        <div class="container">
+            <h2 class="section-title">The Only Automation Solution That Works <span class="highlight">Without Replacing Devices</span></h2>
+            <div class="usp-grid">
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <h3>Works Offline</h3>
+                    <p>No internet? No problem. Control devices locally without cloud dependency.</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Voice Control</h3>
+                    <p>Use voice commands with our app or integrate with Alexa/Google Assistant.</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>No Replacement</h3>
+                    <p>Keep your existing devices. We make them smart with our adapters.</p>
+                </div>
+                <div class="usp-card">
+                    <div class="usp-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>90% Cost Saving</h3>
+                    <p>Save thousands compared to replacing all your devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Setup in <span class="highlight">3 Minutes</span></h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Plug In</h3>
+                    <p>Connect Kronton adapter to your device</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Connect</h3>
+                    <p>Pair with app via Bluetooth/Wi-Fi</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Control</h3>
+                    <p>Use voice, app, or remote to control</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Preview -->
+    <section class="products-preview">
+        <div class="container">
+            <h2 class="section-title">Popular <span class="highlight">Products</span></h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Smart Plug Mini</h3>
+                    <p class="product-desc">Make any appliance smart instantly</p>
+                    <div class="product-price">₹999</div>
+                    <a href="products.html" class="btn-outline">View Details</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Bulb Adapter</h3>
+                    <p class="product-desc">Convert existing bulbs to smart bulbs</p>
+                    <div class="product-price">₹699</div>
+                    <a href="products.html" class="btn-outline">View Details</a>
+                </div>
+                <div class="product-card featured">
+                    <div class="product-badge">BEST VALUE</div>
+                    <div class="product-image">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Starter Kit</h3>
+                    <p class="product-desc">3 plugs + 1 adapter + free app access</p>
+                    <div class="product-price">₹2,499 <span class="old-price">₹3,499</span></div>
+                    <a href="products.html" class="btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Access CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Your Smart Home Journey <span class="highlight">Free</span></h2>
+                <p>No credit card required. Control up to 2 devices free forever.</p>
+                <a href="free-access.html" class="btn-primary btn-large">
+                    <i class="fas fa-rocket"></i> Launch Free Dashboard
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">KRONTON</span>
+                    </a>
+                    <p class="footer-tagline">Smart Life for All</p>
+                    <p>Making smart living accessible and affordable for everyone.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="free-access.html">Free Access</a>
+                    <a href="dashboard.html">Dashboard</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Gurugram, Haryana</p>
+                    <p><i class="fas fa-phone"></i> +91 8708049461</p>
+                    <p><i class="fas fa-envelope"></i> Kronton.work@gmail.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">Shipping Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Kronton. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
